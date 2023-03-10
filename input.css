@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    font-weight: 500px;
+    color: #ffff;
+    cursor: pointer;
+}
+.toggle-links {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    transition: 0.7s ease-in-out;
+}
+.active {
+    left: 0;
+}
+/*Background image for the modern section*/
+.modern{
+    background-position: center;
+    background-size: covevr;
+    background-repeat: no-repeat;
+    background-image: url("src\IMAGES\bg-pattern-intro-desktop.svg");
+}
